@@ -99,6 +99,7 @@ max-width: 44rem;
 .home-content h1{
     font-size: 5.6rem;
     font-weight: 700;
+    margin-bottom: .3rem;
 }
 
 .home-content p{
@@ -132,5 +133,28 @@ max-width: 44rem;
     background: var(--main-color);
     border-radius: .6rem;
     box-shadow: 0 .2rem .5rem var(--shadow-color);
-    
+    font-size: 1.6rem;
+    color: var(--white-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    border: .2rem solid transparent;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background: transparent;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.home .profession-container{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%);
+    width: 768px;
+    height: 768px;
+    background: red;
+    overflow: hidden;
+    pointer-events: none;
 }
