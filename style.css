@@ -149,11 +149,11 @@ max-width: 44rem;
 
 .home .profession-container{
     position: absolute;
-    top: 50%;
+    top: 7.5%;
     right: 0;
-    transform: translate(-50%);
+    /* transform: translate(-50%); */
     width: 768px;
-    height: 768px;
+    height: 836px;
     background: red;
     overflow: hidden;
     pointer-events: none;
